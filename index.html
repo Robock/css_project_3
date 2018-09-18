@@ -1,0 +1,140 @@
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<html lang="en">
+<head> <!-- The head tag includes important information about the page -->
+  <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
+  This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+  You should include this line in the head of all of your webpages. -->
+  <title>My Notes</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+  <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+  
+</head>
+<body> <!-- The body tag is where the "flesh" of your HTML goes -->
+  <!-- Write your main HTML content here -->
+
+ <h1> Class Notes </h1>
+ 
+ <div class="section">
+   <div class="image">
+     <img src="html-basics.jpg" alt="buildhtmlcode">
+   </div>
+   <div class="text">
+     <h2 class="boxes"> What is HTML? </h2>
+     <p><b>HTML</b> is short for Hypertext Markup Language. It is a file system by
+     which individuals communicate with computers. We write code in HTML format.
+     Just like we write text in Microsoft Word to communicate with other humans,
+     we use <em> Text Editors </em> to communicate with computers. A <b> Text
+        Editor</b> is a piece of software that is used to write, edit and save
+         code. We have a few options of text editors that we can use like Atom,
+          Sublime Text, Brackets, etc. 
+     </p>
+     <p>In order to write code, we need to think like a programmer. The 5 ways
+    programmers think are:
+     </p>
+                <dl>
+                  <dt>Procedural Thinking</dt>
+                  <dd>A method of thinking that involves several steps.</dd>
+                  <dt>Abstract Thinking</dt>
+                  <dd>Finding similarities in different things to create
+                    <em>Generality</em>.</dd>
+                  <dt>Systematic Debugging</dt>
+                  <dd>Finding possible causes of problems and fixing it.</dd>
+                  <dt>Technological Empathy</dt>
+                  <dd>A computer is a tool that outputs information based on
+                    what a user inputs and programmers need to be mindful of
+                    that.</dd>
+                    <dt> Systems Thinking</dt>
+                    <dd> Breaking big problems into smaller pieces.</dd>
+                </dl> 
+     
+   </div>
+ </div> 
+
+ <div class="section">
+   <div class="image">
+     <img src="webimages.jpg" alt="spiderweb">
+   </div>
+   <div class="text">
+     <h2 class="spweb"> The World Wide Web</h2>
+     <p>The major components of the web are:
+         1) Browser, 2) Internet, 3) HTTP and
+      4) Servers. A browser is something like an internet explorer, chrome, firefox
+      or safari that makes request via the internet to servers. These requests
+      are made using an internet connection and a protocol called HTTP. HTTP
+      stands for <em>Hypertext Transfer Protocol</em>. Servers are dedicated
+      computers that respond to the request from users with files that
+      is displayed in the users' browser. 
+     </p>
+   </div>
+ </div> 
+  
+ <div class="section">
+   <div class="text">
+     <h3> HTML Markup / HTML Tag</h3>
+     <p>There are many types of Tags and Attributes
+      that are used and the instructor has provided us with a <a href=
+      "https://www.w3schools.com/tags/default.asp"> reference</a>. 
+      Another thing I learned in this class is how to manage whitespace and
+      have text on multiple lines using <b>Inline</b> and <b>Block</b> methods.
+     </p>
+   </div>
+ </div>   
+  
+ <div class="section">
+   <div class="image">
+     <img src="css-style.png" alt="cssstyle" width="200" height="150">
+   </div>
+   <div class="text">
+     <h2 class="sty">Make a stylish web page</h2>
+     <p>Both HTML and CSS are languages. HTML controls the "structure" while CSS controls "style".
+  The analogy of a house's structure being similar to HTML while the paint and decoration 
+  of the house is similar to what CSS does to web pages is very helpful to understand web page design. 
+  Along the same vein, you can think of JavaScript as an interactive tool in the house 
+  like a tv remote controller or garage door opener.
+
+  Document Object Model (DOM) is a tree-like structure of a page. This structure can easily be
+  seen by using Developer Tools or Dev Tools in browsers.
+
+  Another little caveat I learned about web pages is that you can think of everything on a web page as 
+  boxes and these boxes useDiv tag to differentiate themselves from other boxes. Class attributes
+  are used as labels for these boxes. Using Div tags helps group similar things together in a box 
+  thereby giving our code a structure. This practice also helps to modify the code in the future 
+  because related content is grouped together.
+     </p>
+   </div>
+ </div> 
+
+ <div class="section">
+   <div class="image">
+     <img src="cssmug.jpeg" alt="ahhcss">
+   </div>
+   <div class="text">
+     <h2 class="mug">What is CSS?</h2>
+     <p>CSS stands for Cascading Style Sheets. In a cascading relationship, the most specific 
+  rule at the bottom of the cascading rules applies to everything. A rule in CSS is made
+  in a form of a declaration. A declaration is enclosed in a pair of curly braces having
+  a property followed by a colon and a value followed by a semicolon. Each declaration 
+  uses selectors. A selector is a CSS code that selects a specific style for a component 
+  of an HTML element. Selector is basically the name you use in order to target the 
+  elements that are assigned to a class or id attribute in HTML. A class refers to a 
+  group of elements that can be styled together while ID's are unique identifiers that
+  uniquely identify an element in HTML. </p>
+  
+    <p>The 3 ways to include CSS styling in web pages are:</p>
+      <ol class="lis">
+        <li>Write CSS in the head of the HTML file.</li>
+        <li>Link your HTML to a separate CSS file.</li>
+        <li>Write your style inline with your HTML (not recommonded).</li>
+      </ol>
+   </div>
+ </div> 
+
+
+  <address>
+      Written by <a href="mailto:henok.heyi@gmail.com"> Henok Heyi</a>. <br>
+      June 2nd, 2017<br>
+  </address>
+</body>
+</html>
+
